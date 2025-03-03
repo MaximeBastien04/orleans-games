@@ -9,36 +9,60 @@ body {
 
 /* NAV */
 nav {
+    position: fixed;
+    top: -20px;
+    left: 0;
+    width: 100vw;
+    z-index: 100000;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    text-align: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 100;
     width: 50%;
     margin-left: auto;
-    padding: 20px;
-    align-items: center;
+    margin-right: 20px;
 }
 
-nav a {
+nav ul a {
     color: white;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
     transition: 0.4s;
+    z-index: 100;
 }
 
-nav a:hover {
+nav ul a:hover {
     transform: translateY(-2px);
     transition: 0.4s;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.353));
 }
 
-nav a:nth-child(4) {
+nav ul a:nth-child(4) {
     color: #22043C;
     background-color: white;
     padding: 10px;
     width: 70%;
     margin: auto;
     border-radius: 50px;
+}
+
+nav div {
+    width: 100%;
+    height: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #22043c5b;
+    filter: blur(15px);
+    padding-top: 40px;
 }
 
 /* HEADER */
@@ -243,24 +267,25 @@ main #new-games article+a:hover {
     font-weight: 500;
 }
 
-#contact #contact-info article div p:nth-child(1), 
+#contact #contact-info article div p:nth-child(1),
 #contact #contact-info article div p:nth-child(3),
 #contact #contact-info article div p:nth-child(5) {
-    text-align: left;   
+    text-align: left;
 }
 
-#contact #contact-info article div p:nth-child(2), 
+#contact #contact-info article div p:nth-child(2),
 #contact #contact-info article div p:nth-child(4),
 #contact #contact-info article div p:nth-child(6) {
-    text-align: right;   
+    text-align: right;
 }
 
-#contact #contact-info article + img {
+#contact #contact-info article+img {
     width: 50%;
     margin: auto;
     grid-column: 2/3;
 }
-#contact #contact-info img + iframe {
+
+#contact #contact-info img+iframe {
     width: 14vw;
     height: 14vw;
     border-radius: 200px;
