@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+#home p {
+    opacity: 0;
+}
+
 /* NAV */
 nav {
     position: fixed;
@@ -320,7 +324,7 @@ main #new-games div.planetBottom img {
     grid-row: 1/2;
 }
 
-#contact #contact-info img+iframe {
+#contact #contact-info iframe {
     width: 14vw;
     height: 14vw;
     border-radius: 200px;

@@ -1,6 +1,9 @@
 const Home = () => {
     return (
         <>
+        <div id="home"> {/* for nav to scroll to top */}
+            <p>.</p>
+        </div>
             <header>
                 <h1>Orleans Games</h1>
                 <h2>Learn and play with fun</h2>
@@ -76,7 +79,7 @@ const Home = () => {
                             </div>
                         </article>
                         <img src="../../public/images/assets/location.png" />
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.592076324211!2d4.405885876848284!3d50.857237757990816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c25d3c046031%3A0xc760cc5b59c7634f!2sCaramel%20Publishing!5e0!3m2!1sfr!2sbe!4v1740751863952!5m2!1sfr!2sbe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.592076324211!2d4.405885876848284!3d50.857237757990816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c25d3c046031%3A0xc760cc5b59c7634f!2sCaramel%20Publishing!5e0!3m2!1sfr!2sbe!4v1740751863952!5m2!1sfr!2sbe&output=embed&zoom=15&disableDefaultUI=true" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </section>
                     <img src="../../public/images/assets/spaceship.png" />
                 </section>
@@ -89,3 +92,4 @@ const Home = () => {
 };
 
 export default Home;
+
