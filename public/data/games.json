@@ -1,0 +1,256 @@
+[
+    {
+        "name" : "Tutti Frutti",
+        "category" : "Observe", 
+        "image" : "TuttiFrutti.png",
+        "game-url" : "https://games.caramel.be/TuttiFrutti/index.html" 
+    },
+    {
+        "name" : "Knock It Down!",
+        "category" : "Action", 
+        "image" : "KnockItDown.png",
+        "game-url" : "https://games.caramel.be/KnockItDown/index.html" 
+    },
+    {
+        "name" : "The Number Game",
+        "category" : "Math", 
+        "image" : "TheNumberGame.png",
+        "game-url" : "https://games.caramel.be/TheNumberGame/index.html" 
+    },
+    {
+        "name" : "Cosmolympics",
+        "category" : "Action", 
+        "image" : "Cosmolympics.png",
+        "game-url" : "https://games.caramel.be/Cosmolympics/index.html" 
+    },
+    {
+        "name" : "Butterflapp",
+        "category" : "Action", 
+        "image" : "Butterflapp.png",
+        "game-url" : "https://games.caramel.be/Butterflapp/index.html" 
+    },
+    {
+        "name" : "Memo Kids At School",
+        "category" : "Observe", 
+        "image" : "MemoKidsAtSchool.png",
+        "game-url" : "https://games.caramel.be/MemoKidsAtSchool/index.html" 
+    },
+    {
+        "name" : "Memo Kids The Island",
+        "category" : "Observe", 
+        "image" : "MemoKidsTheIsland.png",
+        "game-url" : "https://games.caramel.be/MemoKidsTheIsland/index.html" 
+    },
+    {
+        "name" : "Alice in Colourland",
+        "category" : "Action", 
+        "image" : "AliceInColourland.png",
+        "game-url" : "https://games.caramel.be/AliceInColourland/index.html" 
+    },
+    {
+        "name" : "Counting Objects With Snow White",
+        "category" : "Observe", 
+        "image" : "CountingObjectsWithSnowWhite.png",
+        "game-url" : "https://games.caramel.be/CountingObjectsWithSnowWhite/index.html" 
+    },
+    {
+        "name" : "Little Red Hood and The Land of Shapes",
+        "category" : "Observe", 
+        "image" : "LittleRedHoodAndTheLandOfShapes.png",
+        "game-url" : "https://games.caramel.be/LittleRedHoodAndTheLandOfShapes/index.html" 
+    },
+    {
+        "name" : "Finding Opposites With Tom Thumb",
+        "category" : "Observe", 
+        "image" : "FindingOppositesWithTomThumb.png",
+        "game-url" : "https://games.caramel.be/FindingOppositesWithTomThumb/index.html" 
+    },
+    {
+        "name" : "Planet Maths",
+        "category" : "Math", 
+        "image" : "PlanetMaths.png",
+        "game-url" : "https://games.caramel.be/PlanetMaths/index.html" 
+    },
+    {
+        "name" : "Pedro Is Counting",
+        "category" : "Math", 
+        "image" : "PedroIsCounting.png",
+        "game-url" : "https://games.caramel.be/pedro_is_counting/index.html" 
+    },
+    {
+        "name" : "Sokomath",
+        "category" : "Math", 
+        "image" : "Sokomath.png",
+        "game-url" : "https://games.caramel.be/Sokomath/index.html" 
+    },
+    {
+        "name" : "Find The Sign",
+        "category" : "Math", 
+        "image" : "findTheSign.png",
+        "game-url" : "https://games.caramel.be/FindTheSign/index.html" 
+    },
+    {
+        "name" : "Find The Sign 2",
+        "category" : "Math", 
+        "image" : "findTheSign2.png",
+        "game-url" : "https://games.caramel.be/FindTheSign2/index.html" 
+    },
+    {
+        "name" : "Fun & Count",
+        "category" : "Math", 
+        "image" : "Fun&Count.png",
+        "game-url" : "https://games.caramel.be/Fun&Count/index.html" 
+    },
+    {
+        "name" : "Mathemagic",
+        "category" : "Math", 
+        "image" : "Mathemagic.png",
+        "game-url" : "https://games.caramel.be/Mathemagic/index.html" 
+    },
+    {
+        "name" : "Shape Swing",
+        "category" : "Action", 
+        "image" : "ShapeSwing.png",
+        "game-url" : "https://games.caramel.be/ShapeSwing/index.html" 
+    },
+    {
+        "name" : "Shape Swing 2",
+        "category" : "Action", 
+        "image" : "ShapeSwing2.png",
+        "game-url" : "https://games.caramel.be/ShapeSwing2/index.html" 
+    },
+    {
+        "name" : "The Maze",
+        "category" : "Action", 
+        "image" : "TheMaze.png",
+        "game-url" : "https://games.caramel.be/TheMaze/index.html" 
+    },
+    {
+        "name" : "The Maze 2",
+        "category" : "Action", 
+        "image" : "TheMaze2.png",
+        "game-url" : "https://games.caramel.be/TheMaze2/index.html" 
+    },
+    {
+        "name" : "The Maze 3",
+        "category" : "Action", 
+        "image" : "TheMaze3.png",
+        "game-url" : "https://games.caramel.be/TheMaze3/index.html" 
+    },
+    {
+        "name" : "Animal Maker",
+        "category" : "Puzzle", 
+        "image" : "AnimalMaker.png",
+        "game-url" : "https://games.caramel.be/AnimalMaker/index.html" 
+    },
+    {
+        "name" : "Chess ITO",
+        "category" : "Puzzle", 
+        "image" : "ChessITO.png",
+        "game-url" : "https://games.caramel.be/ChessITO/index.html" 
+    },
+    {
+        "name" : "Chess ITO",
+        "category" : "Puzzle", 
+        "image" : "ChessITO.png",
+        "game-url" : "https://games.caramel.be/ChessITO/index.html" 
+    },
+    {
+        "name" : "Crystal Valley",
+        "category" : "Puzzle", 
+        "image" : "CrystalValley.png",
+        "game-url" : "https://games.caramel.be/CrystalValley/index.html" 
+    },
+    {
+        "name" : "Dots Color",
+        "category" : "Puzzle", 
+        "image" : "DotsColor.png",
+        "game-url" : "https://games.caramel.be/DotsColor/index.html" 
+    },
+    {
+        "name" : "Dots Party",
+        "category" : "Puzzle", 
+        "image" : "DotsParty.png",
+        "game-url" : "https://games.caramel.be/DotsParty/index.html" 
+    },
+    {
+        "name" : "Iced Stars",
+        "category" : "Puzzle", 
+        "image" : "IcedStars.png",
+        "game-url" : "https://games.caramel.be/IcedStars/index.html" 
+    },
+    {
+        "name" : "Robots Code",
+        "category" : "Puzzle", 
+        "image" : "RobotsCode.png",
+        "game-url" : "https://games.caramel.be/RobotsCode/index.html" 
+    },
+    {
+        "name" : "Binary ABC",
+        "category" : "Puzzle", 
+        "image" : "BinaryABC.png",
+        "game-url" : "https://games.caramel.be/BinaryABC/index.html" 
+    },
+    {
+        "name" : "Mosaics Wild Edition",
+        "category" : "Puzzle", 
+        "image" : "MosaicsWild.png",
+        "game-url" : "https://games.caramel.be/MosaicsWild/index.html" 
+    },
+    {
+        "name" : "Mosaics Pets Edition",
+        "category" : "Puzzle", 
+        "image" : "MosaicsPets.png",
+        "game-url" : "https://games.caramel.be/MosaicsPets/index.html" 
+    },
+    {
+        "name" : "Look At This",
+        "category" : "Puzzle", 
+        "image" : "LookAtThis.png",
+        "game-url" : "https://games.caramel.be/LookAtThis/index.html" 
+    },
+    {
+        "name" : "Star Catch",
+        "category" : "Puzzle", 
+        "image" : "StarCatch.png",
+        "game-url" : "https://games.caramel.be/StarCatch/index.html" 
+    },
+    {
+        "name" : "Maze Mania",
+        "category" : "Puzzle", 
+        "image" : "MazeMania.png",
+        "game-url" : "https://games.caramel.be/MazeMania/index.html" 
+    },
+    {
+        "name" : "Number Master",
+        "category" : "Observe", 
+        "image" : "NumberMaster.png",
+        "game-url" : "https://games.caramel.be/NumberMaster/index.html" 
+    },
+    {
+        "name" : "Dear Ladybird",
+        "category" : "Observe", 
+        "image" : "DearLadybird.png",
+        "game-url" : "https://games.caramel.be/DearLadybird/index.html" 
+    },
+    {
+        "name" : "Memo Color",
+        "category" : "Observe", 
+        "image" : "MemoColor.png",
+        "game-url" : "https://games.caramel.be/MemoColor/index.html" 
+    },
+    {
+        "name" : "Find Us",
+        "category" : "Observe", 
+        "image" : "FindUs.png",
+        "game-url" : "https://games.caramel.be/FindUs/index.html" 
+    },
+    {
+        "name" : "Time Lapse",
+        "category" : "Observe", 
+        "image" : "TimeLapse.png",
+        "game-url" : "https://games.caramel.be/TimeLapse/index.html" 
+    }
+    
+
+]
