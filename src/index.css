@@ -105,18 +105,18 @@ main {
     margin-top: 60vh;
 }
 
-main > img {
+main>img {
     margin-bottom: -10px;
     width: 100%;
 }
 
-main .games-container {
+.games-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
 
-main .games-container .game {
+.games-container .game {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -124,14 +124,14 @@ main .games-container .game {
     transition: 0.2s;
 }
 
-main .games-container .game:hover {
+.games-container .game:hover {
     transform: translateY(-2px);
     transition: 0.2s;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.353));
     filter: brightness(0.5);
 }
 
-main .games-container .game img:nth-child(1) {
+.games-container .game img:nth-child(1) {
     width: 25%;
     object-fit: cover;
     grid-column: 1/2;
@@ -141,7 +141,7 @@ main .games-container .game img:nth-child(1) {
     justify-self: center;
 }
 
-main .games-container .game img:nth-child(2) {
+.games-container .game img:nth-child(2) {
     width: 100%;
     height: 350px;
     object-fit: cover;
@@ -151,7 +151,9 @@ main .games-container .game img:nth-child(2) {
 }
 
 /* MAIN - NEW GAMES */
-#new-games, #about, #contact {   
+#new-games,
+#about,
+#contact {
     background-color: #22043C;
     z-index: 1;
 }
@@ -160,6 +162,7 @@ main div.container {
     width: 90%;
     margin: auto;
 }
+
 main #new-games {
     background-image: url('../images/assets/planetMiddle.png');
     background-size: 100vw 100vh;
@@ -334,7 +337,7 @@ main #new-games div.planetBottom img {
     z-index: 20;
 }
 
-#contact section + img {
+#contact section+img {
     grid-column: 1/3;
     grid-row: 1/2;
     width: 100%;
@@ -351,4 +354,151 @@ footer p {
     text-align: center;
     font-size: 2.2vw;
     font-weight: 500;
+}
+
+
+/* GAMES */
+#all-games>section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+#game-category-title {
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#all-games {
+    margin-top: 20vh;
+}
+
+#all-games .games-container {
+    width: 90%;
+    margin: auto;
+}
+
+#all-games section #searchbar {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+
+#all-games section #searchbar input {
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #22043C;
+}
+
+#all-games section #searchbar input[type="button"] {
+    width: 40px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+#all-games section #searchbar input[type="text"] {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+}
+
+#all-games section #searchbar input[type="text"]:focus-visible {
+    border: none;
+}
+
+/* GAMES - SEARCHBAR */
+.searchbar-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-button {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: width 0.5s ease-in-out, border-radius 0.3s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.category-button.expanded {
+    width: 100%;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-icon,
+.search-icon {
+    width: 40px;
+    height: 40px;
+    color: #22043C;
+}
+
+.category-options {
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.category-options p {
+    color: #22043C;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transform: 0.4s;
+    font-weight: 600;
+}
+
+.category-options p:hover {
+    transform: translateY(-2px);
+    transform: text 0.4s;
+}
+
+.search-input {
+    width: 100%;
+    transition: width 0.4s ease-in-out;
+}
+
+.search-input input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    color: #22043C;
+    font-size: 1.5vw;
+}
+
+.search-input.collapsed {
+    width: 50px;
+    height: 50px;
+    background: white;
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.search-input.collapsed input {
+    display: none;
 }

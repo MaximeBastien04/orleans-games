@@ -84,9 +84,6 @@ const Home = () => {
                     <img src="../../public/images/assets/spaceship.png" />
                 </section>
             </main>
-            <footer>
-                <p>Copyright © Orleans Games</p>
-            </footer>
         </>
     );
 };
