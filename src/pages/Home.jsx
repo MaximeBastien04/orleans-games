@@ -1,9 +1,19 @@
+import { useState, useEffect } from "react";
+import gamesData from "../data/games.json"; // Adjust the path based on your file structure
+
 const Home = () => {
+
+    const [games, setGames] = useState([]);
+
+    useEffect(() => {
+        // Select the first 6 games
+        setGames(gamesData.slice(0, 6));
+    }, []);
     return (
         <>
-        <div id="home"> {/* for nav to scroll to top */}
-            <p>.</p>
-        </div>
+            <div id="home"> {/* for nav to scroll to top */}
+                <p>.</p>
+            </div>
             <header>
                 <h1>Orleans Games</h1>
                 <h2>Learn and play with fun</h2>
@@ -14,30 +24,12 @@ const Home = () => {
                     <div className="container">
                         <h2>New Games</h2>
                         <article class="games-container"> {/* KEEP A MAXIMUM OF 6 GAMES */}
-                            <a class="game action">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/cosmolympics.png" alt="gameName" />
-                            </a>
-                            <a class="game puzzle">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/AnimalMaker.png" alt="gameName" />
-                            </a>
-                            <a class="game action">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/Butterflapp.png" alt="gameName" />
-                            </a>
-                            <a class="game action">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/KnockItDown.png" alt="gameName" />
-                            </a>
-                            <a class="game observe">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/MemoKidsAtSchool_Thumbnail.png" alt="gameName" />
-                            </a>
-                            <a class="game observe">
-                                <img src="../../public/images/assets/playBtn.png" alt="play" />
-                                <img src="../../public/images/game-thumbnails/CountingAnimalsWithSnowWhite.jpg.jpg" alt="gameName" />
-                            </a>
+                            {games.map((game, index) => (
+                                <a key={index} className={`game ${game.category.toLowerCase()}`} href={game.url}>
+                                    <img src="/images/assets/playBtn.png" alt="Play" />
+                                    <img src={`/images/game-thumbnails/${game.image}`} alt={game.name} />
+                                </a>
+                            ))}
                         </article>
                     </div>
                     <div className="planetBottom">
