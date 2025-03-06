@@ -18,7 +18,7 @@ const Games = () => {
             <section>
                 {/* Update the title dynamically */}
                 <h1 id="game-category-title">{selectedCategory} Games</h1>
-                <SearchBar setSelectedCategory={setSelectedCategory} setSearchQuery={setSearchQuery} selectedCategory={selectedCategory} />
+                <SearchBar setSelectedCategory={setSelectedCategory} setSearchQuery={setSearchQuery} selectedCategory={selectedCategory} searchQuery={searchQuery} />
             </section>
 
             <article className="games-container">
