@@ -1,8 +1,9 @@
 import { HashLink } from "react-router-hash-link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 const Nav = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
     const location = useLocation();
 
     useEffect(() => {
@@ -16,9 +17,20 @@ const Nav = () => {
         }
     }, [location]);
 
+    // Function to toggle the menu visibility
+    const toggleMenu = () => {
+        setIsMenuOpen((prevState) => !prevState);
+    };
+
     return (
         <nav>
-            <ul>
+            {/* Menu Button */}
+            <a href="#" className="icon" id="menu" onClick={toggleMenu}>
+                <i className="fa fa-bars"></i>
+            </a>
+
+            {/* Navigation Links */}
+            <ul className={isMenuOpen ? "open" : ""}>
                 <HashLink smooth to="/#home">Home</HashLink>
                 <HashLink smooth to="/#about">About Us</HashLink>
                 <HashLink smooth to="/#contact">Contact</HashLink>

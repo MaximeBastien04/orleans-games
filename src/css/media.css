@@ -1,0 +1,82 @@
+@media only screen and (max-width: 480px) {
+
+    /* NAV */
+    nav {
+        background-color: #22043c;
+        top: -2px;
+        gap: 50px;
+        padding: 20px 0;
+        box-shadow: 0px 10px 10px #0e011a7c;
+    }
+
+    nav .icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        z-index: 100000;
+        color: white;
+        background-color: white;
+        justify-self: center;
+        align-self: center;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+    }
+
+    nav ul.open {
+        display: grid !important;
+        height: 100%;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        grid-template-rows: repeat(auto, 1fr);
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: #22043c;
+        padding-bottom: 50px;
+        box-shadow: 0px 10px 10px #0e011a7c;
+    }
+
+    nav ul a {
+        font-size: 6vh;
+    }
+
+    nav ul a:nth-child(2),
+    nav ul a:nth-child(3) {
+        display: none;
+    }
+
+    /* HEADER */
+    header {
+        height: 20vh;
+        margin-top: 10vh;
+        top: 20%;
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 30vh;
+    }
+
+    main #new-games h2 { 
+        font-size: 14vw;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* GAMES-CONTAINER */
+    .games-container {
+        display: block;
+    }
+
+    .games-container a.game {
+        margin-bottom: 5vh;
+    }
+
+    .games-container .game img:nth-child(2) {
+        height: 30vh;
+    }
+}
