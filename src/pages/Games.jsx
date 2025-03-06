@@ -24,8 +24,8 @@ const Games = () => {
             <article className="games-container">
                 {filteredGames.map((game, index) => (
                     <a key={index} className={`game ${game.category.toLowerCase()}`} href={game.url}>
-                        <img src="/images/assets/playBtn.png" alt="play" />
-                        <img src={`/images/game-thumbnails/${game.image}`} alt={game.name} />
+                        <img src="/vite-react/images/assets/playBtn.png" alt="play" />
+                        <img src={`/vite-react/images/game-thumbnails/${game.image}`} alt={game.name} />
                     </a>
                 ))}
             </article>
