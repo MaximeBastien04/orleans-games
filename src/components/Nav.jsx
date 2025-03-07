@@ -25,9 +25,7 @@ const Nav = () => {
     return (
         <nav>
             {/* Menu Button */}
-            <a href="#" className="icon" id="menu" onClick={toggleMenu}>
-                <i className="fa fa-bars"></i>
-            </a>
+            <img src="/vite-react/images/assets/menu_icon.png" className="icon" id="menu" onClick={toggleMenu} />
 
             {/* Navigation Links */}
             <ul className={isMenuOpen ? "open" : ""}>

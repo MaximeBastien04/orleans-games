@@ -32,11 +32,11 @@ const Home = () => {
                             ))}
                         </article>
                     </div>
+                </section>
                     <div className="planetBottom">
                         <a href="#">All Games</a>
                         <img src="/vite-react/images/assets/planetLowerHalf.png" />
                     </div>
-                </section>
                 <section id="about">
                     <article>
                         <h2>About Us</h2>

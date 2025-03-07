@@ -190,13 +190,13 @@ main #new-games h2 {
     margin-bottom: 40px;
 }
 
-main #new-games div.planetBottom {
+main div.planetBottom {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
 
-main #new-games div.planetBottom a {
+main div.planetBottom a {
     display: block;
     background-color: white;
     padding: 28px 50px;
@@ -207,7 +207,7 @@ main #new-games div.planetBottom a {
     width: 20%;
     margin: auto;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 3vw;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.23);
     margin-top: 50px;
     transition: 0.2s;
@@ -216,17 +216,18 @@ main #new-games div.planetBottom a {
     z-index: 10;
 }
 
-main #new-games div.planetBottom a:hover {
+main div.planetBottom a:hover {
     transform: translateY(-2px);
     transition: 0.2s;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.353);
 }
 
-main #new-games div.planetBottom img {
+main div.planetBottom img {
     width: 100%;
     object-fit: cover;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-top: -4px;
 }
 
 /* HOME - ABOUT US */
