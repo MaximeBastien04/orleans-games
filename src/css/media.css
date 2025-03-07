@@ -183,4 +183,47 @@
     footer p {
         font-size: 5vw;
     }
+
+    /* ALL GAMES */
+    #all-games {
+        padding-top: 15vh;
+    }
+
+    #all-games > section {
+        display: block;
+    }
+
+    #game-category-title {
+        font-size: 15vw;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .searchbar-container {
+        display: block;
+    }
+
+    .category-options {
+        display: block;
+    }
+
+    .category-options p:nth-child(1) {
+        padding-top: 10px;
+    }
+    
+    .category-options p {
+        font-size: 6vw;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .category-options p.selected {
+        width: 50%;
+    }
+
+    .search-input {
+        width: 90%;
+        font-size: 6vw;
+        margin-top: 20px;
+    }
 }
