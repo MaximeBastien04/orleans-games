@@ -380,14 +380,14 @@ footer p {
 
 #all-games>section {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 3fr;
     width: 90%;
     margin: auto;
     margin-bottom: 2vh;
 }
 
 #game-category-title {
-    font-size: 8vw;
+    font-size: 5vw;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -431,74 +431,40 @@ footer p {
 
 /* GAMES - SEARCHBAR */
 .searchbar-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     align-items: center;
     gap: 10px;
 }
 
-.category-button {
-    width: 60px;
-    height: 50px;
-    background: white;
-    border-radius: 50px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: width 0.5s ease-in-out, border-radius 0.3s ease-in-out;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    /* justify-content: space-between; */
-    gap: 5vw;
-}
-
-.category-button.expanded {
-    width: 100%;
-    border-radius: 50px;
-    padding: 20px;
-}
-
-.menu-icon,
-.search-icon {
-    width: 40px;
-    height: 40px;
-    color: #22043C;
-}
-
 .category-options {
-    display: flex;
-    gap: 30px;
-    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
     align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    align-content: center;
+    height: 100%;
+    padding: 0 20px;
 }
 
 .category-options p {
+    text-align: center;
     color: #22043C;
     font-size: 1.5vw;
     cursor: pointer;
-    transform: 0.4s;
     font-weight: 600;
-}
-
-.category-options p:target {
-    transform: translateY(-2px);
-    transform: 0.4s;
 }
 
 .category-options p.selected {
     background-color: #eecb1b;
     color: white;
-    padding: 40px 10px;
+    padding: 10px 5px;
+    border-radius: 125px;
 }
 
 .search-input {
-    width: 100%;
-    transition: width 0.4s ease-in-out;
-}
-
-.search-input input {
     width: 100%;
     padding: 20px;
     border: none;
@@ -508,20 +474,4 @@ footer p {
     font-weight: 600;
     color: #22043C;
     font-size: 1.5vw;
-}
-
-.search-input.collapsed {
-    width: 50px;
-    background: white;
-    backdrop-filter: blur(10px);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 20px;
-}
-
-.search-input.collapsed input {
-    display: none;
 }
