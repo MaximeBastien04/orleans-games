@@ -62,8 +62,8 @@
     {
         "name" : "Finding Opposites With Tom Thumb",
         "category" : "Observe", 
-        "image" : "FindingOppositeswithTomThumb.png",
-        "url" : "https://games.caramel.be/FindingOppositeswithTomThumb/index.html" 
+        "image" : "FindingOppositesWithTomThumb.png",
+        "url" : "https://games.caramel.be/FindingOppositesWithTomThumb/index.html" 
     },
     {
         "name" : "Planet Maths",
@@ -75,7 +75,7 @@
         "name" : "Pedro Is Counting",
         "category" : "Math", 
         "image" : "PedroIsCounting.png",
-        "url" : "https://games.caramel.be/pedro_is_counting/index.html" 
+        "url" : "https://games.caramel.be/PedroIsCounting/index.html" 
     },
     {
         "name" : "Sokomath",
@@ -123,19 +123,19 @@
         "name" : "The Maze",
         "category" : "Action", 
         "image" : "TheMaze.png",
-        "url" : "https://games.caramel.be/TheMaze/index.html" 
+        "url" : "https://games.caramel.be/TheMaze/index.php" 
     },
     {
         "name" : "The Maze 2",
         "category" : "Action", 
         "image" : "TheMaze2.png",
-        "url" : "https://games.caramel.be/TheMaze2/index.html" 
+        "url" : "https://games.caramel.be/TheMaze2/index.php" 
     },
     {
         "name" : "The Maze 3",
         "category" : "Action", 
         "image" : "TheMaze3.png",
-        "url" : "https://games.caramel.be/TheMaze3/index.html" 
+        "url" : "https://games.caramel.be/TheMaze3/index.php" 
     },
     {
         "name" : "Animal Maker",
@@ -232,12 +232,6 @@
         "category" : "Observe", 
         "image" : "MemoColor.png",
         "url" : "https://games.caramel.be/MemoColor/index.html" 
-    },
-    {
-        "name" : "Find Us",
-        "category" : "Observe", 
-        "image" : "FindUs.png",
-        "url" : "https://games.caramel.be/FindUs/index.html" 
     },
     {
         "name" : "Time Lapse",
