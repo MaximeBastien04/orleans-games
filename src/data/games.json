@@ -144,12 +144,6 @@
         "url" : "https://games.caramel.be/AnimalMaker/index.html" 
     },
     {
-        "name" : "Chess ITO",
-        "category" : "Puzzle", 
-        "image" : "ChessITO.png",
-        "url" : "https://games.caramel.be/ChessITO/index.html" 
-    },
-    {
         "name" : "Crystal Valley",
         "category" : "Puzzle", 
         "image" : "CrystalValley.png",

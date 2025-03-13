@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
 import gamesData from "../data/games.json"; // Adjust the path based on your file structure
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
                     </div>
                 </section>
                     <div className="planetBottom">
-                        <a href="#">All Games</a>
+                    <HashLink to="/games#all-games">All Games</HashLink>
                         <img src="/vite-react/images/assets/planetLowerHalf.png" />
                     </div>
                 <section id="about">
