@@ -1,5 +1,11 @@
 [
     {
+        "name" : "Kawaii Creator",
+        "category" : "Observe", 
+        "image" : "KawaiiCreator.png",
+        "url" : "https://games.caramel.be/KawaiiCreator/index.html" 
+    },
+    {
         "name" : "Turn And Learn",
         "category" : "Math", 
         "image" : "TurnAndLearn.png",
