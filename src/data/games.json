@@ -60,22 +60,22 @@
         "url" : "https://games.caramel.be/AliceInColourland/index.html" 
     },
     {
-        "name" : "Counting Objects With Snow White",
+        "name" : "Counting Animals With Snow White",
         "category" : "Observe", 
-        "image" : "CountingObjectsWithSnowWhite.png",
-        "url" : "https://games.caramel.be/CountingObjectsWithSnowWhite/index.html" 
+        "image" : "CountingAnimalsWithSnowWhite.png",
+        "url" : "https://games.caramel.be/CountingAnimalsWithSnowWhite/index.html" 
     },
     {
         "name" : "Little Red Hood and The Land of Shapes",
         "category" : "Observe", 
         "image" : "LittleRedHoodAndTheLandOfShapes.png",
-        "url" : "https://games.caramel.be/LittleRedHoodAndTheLandOfShapes/index.html" 
+        "url" : "https://games.caramel.be/RedHood/index.html" 
     },
     {
         "name" : "Finding Opposites With Tom Thumb",
         "category" : "Observe", 
         "image" : "FindingOppositesWithTomThumb.png",
-        "url" : "https://games.caramel.be/FindingOppositesWithTomThumb/index.html" 
+        "url" : "https://games.caramel.be/Finding%20Opposites%20with%20Tom%20Thumb/index.html" 
     },
     {
         "name" : "Planet Maths",
